@@ -5,7 +5,7 @@ A mobile aplication developed with Flutter, created to practise animations. It g
 
 ### Screenshots
 - Vídeo:
-<img src="https://github.com/SamillyNunes/animated_login/blob/main/assets/images/readme/animated-login.gif" height="400px">
+<img src="https://github.com/SamillyNunes/animated_login/blob/main/assets/readme/animated-login.gif" height="400px">
 
 ### Requirements
 - Flutter
