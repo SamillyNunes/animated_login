@@ -1,16 +1,24 @@
-# animated_login
+# Animated login
+Uma aplicação desenvolvida em Flutter, criada para praticar animações. Consiste em uma página de login e uma de cadastro, uma transitando para a outra de forma animada.
 
-A new Flutter project.
+A mobile aplication developed with Flutter, created to practise animations. It goals in a login and sign up pages, each one transiting to the other one in a animated way.
 
-## Getting Started
+### Screenshots
+- Vídeo:
+<img src="https://github.com/SamillyNunes/animated_login/blob/main/assets/images/readme/animated-login.gif" height="400px">
 
-This project is a starting point for a Flutter application.
+### Requirements
+- Flutter
+- Dart
+- Android Studio
 
-A few resources to get you started if this is your first Flutter project:
+### Running
+1. Clone the project in your local machine with: `git clone https://github.com/SamillyNunes/animated_login.git`
+2. Enter the project folder
+3. Open cmd in the project folder
+3. Type `flutter run` in cmd
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📌 Find me!
+- Linkedin: https://www.linkedin.com/in/samillynunes19/
+- Instagram: https://www.instagram.com/samillynunes.py/
+- Github: https://github.com/SamillyNunes
