@@ -1,6 +1,7 @@
 import 'package:animated_login/core/app_colors.dart';
 import 'package:animated_login/core/app_vectors.dart';
 import 'package:animated_login/shared/widgets/login_form.dart';
+import 'package:animated_login/shared/widgets/sign_up_form.dart';
 import 'package:animated_login/shared/widgets/social_buttons.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
@@ -15,12 +16,24 @@ class AuthPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
+          // login form
           Positioned(
             width: _size.width * 0.88,
             height: _size.height,
+            left: -_size.width * 0.76,
             child: Container(
               color: AppColors.loginBg,
               child: const LoginForm(),
+            ),
+          ),
+          // sign up button
+          Positioned(
+            height: _size.height,
+            width: _size.width * 0.88,
+            left: _size.width * 0.12,
+            child: Container(
+              color: AppColors.signupBg,
+              child: const SignUpForm(),
             ),
           ),
           Positioned(
